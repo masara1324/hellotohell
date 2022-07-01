@@ -1,0 +1,50 @@
+.list:hover {
+    background-color: rgba(87, 87, 87, 0.692);
+    border-radius: 30px;
+}
+.list {
+    text-decoration: none;
+    padding: 30px;
+}
+.back {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 1000;
+    background-image: url('https://media.gettyimages.com/photos/adolf-hitler-in-munich-in-the-spring-of-1932-picture-id119505258?s=2048x2048');
+}
+
+.menu {
+    margin: -100;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    background-color: rgba(128, 128, 128, 0.562);
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}.gallary {
+    display: flex;
+    height: 300px;
+    width: 300px;
+
+    overflow: hidden;
+    margin: 0 auto;
+    border: 2px solid rgb(122, 121, 120);
+}
+.gallary_i{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 500px;
+    background-color: transparent;
+}
+.f_i{
+    margin-left: -100;
+}
+.but{
+    width: fit-content;
+    margin: 0 auto;
+}
